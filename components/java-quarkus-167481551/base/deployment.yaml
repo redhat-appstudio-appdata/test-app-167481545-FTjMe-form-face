@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: java-quarkus-167481551
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:skhileri-java-quarkus-167481551
+      - image: quay.io/redhat-appstudio/user-workload@sha256:6a325b97b5bcbc574186302b14126d929dace5a03de41b38dec40a19b5a12ba3
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
